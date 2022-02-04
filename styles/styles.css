@@ -1,9 +1,9 @@
 /* * FONTS */
-    /* Popins => Titles */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    /* Poppins => Titles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
     /* Open Sans => Paragraphs */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 :root {
     /* Fonts Variables */
@@ -12,7 +12,7 @@
 
     /* Brand Color Variables */
     --weight-color: #00242f;
-    --button: #ff55c0;
+    --button-base: #ff55c0;
     --button-hover: #ff8fd6;
     --background-section: #f4fbff;
     --facebook-hover: #0074ee;
@@ -30,3 +30,26 @@
 body {
     font-family: var(--paraghrahp-text);
 }
+
+/* 
+La idea, es que cada uno pued escribir su código en su respectiva región, para que no hayan conflictos con los trs codigos.
+*/
+
+/* #region Marco */
+
+
+
+/* #endregion */
+
+/* #region Felipe */
+
+    
+
+/* #endregion */
+
+/* #region Camilo */
+
+    
+
+/* #endregion */
+
