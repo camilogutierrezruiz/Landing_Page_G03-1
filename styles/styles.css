@@ -1,5 +1,32 @@
+/* * FONTS */
+    /* Popins => Titles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+    /* Open Sans => Paragraphs */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    /* Fonts Variables */
+    --titles-font: 'Poppins', sans-serif;
+    --paraghrahp-font: 'Open Sans', sans-serif;
+
+    /* Brand Color Variables */
+    --weight-color: #00242f;
+    --button: #ff55c0;
+    --button-hover: #ff8fd6;
+    --background-section: #f4fbff;
+    --facebook-hover: #0074ee;
+    --instagram-hover: #df376f;
+    --twitter-hover: #1d9bf0;
+    --white: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paraghrahp-text);
 }
