@@ -53,8 +53,8 @@ a {
 
 .botonTransparente {
   padding: 5px 20px;
-  border: var(--button) solid 2px;
-  color: var(--button);
+  border: var(--button-base) solid 2px;
+  color: var(--button-base);
   border-radius: 25px;
   display: inline-block;
   font-family: var(--paraghrahp-font);
