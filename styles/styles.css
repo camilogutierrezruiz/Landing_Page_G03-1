@@ -141,11 +141,11 @@ nav {
 }
 
 .background-images {
-  background: var(--Very-Pale-Blue);
+  background: var(--background-section);
 }
 
 .bg-cyan {
-  background: var(--Very-Pale-Blue);
+  background: var(--background-section);
 }
 
 .illustrations .i-img {
@@ -159,6 +159,8 @@ nav {
 }
 
 .read p {
+  font-family: var(--paraghrahp-font);
+  font-weight: 400;
   text-align: left;
   max-width: 500px;
 }
